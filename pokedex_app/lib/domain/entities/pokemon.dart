@@ -4,7 +4,6 @@ class Pokemon {
   final List<Evolution>? evolutions;
 
   Pokemon({required this.name, required this.imgUrl, required this.evolutions});
-
 }
 
 class Evolution {
