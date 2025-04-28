@@ -25,7 +25,7 @@ class PokemonListResponse {
         count: json["count"],
         next: json["next"],
         previous: json["previous"],
-        pokemons: List<PokemonItem>.from(json["pokemons"].map((x) => PokemonItem.fromJson(x))),
+        pokemons: List<PokemonItem>.from(json["results"].map((x) => PokemonItem.fromJson(x))),
     );
 
     Map<String, dynamic> toJson() => {
