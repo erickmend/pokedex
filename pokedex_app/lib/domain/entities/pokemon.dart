@@ -1,9 +1,9 @@
 class Pokemon {
   final String name;
   final String imgUrl;
-  final List<Evolution>? evolutions;
+  List<Evolution>? evolutions;
 
-  Pokemon({required this.name, required this.imgUrl, required this.evolutions});
+  Pokemon({required this.name, required this.imgUrl, this.evolutions});
 }
 
 class Evolution {
