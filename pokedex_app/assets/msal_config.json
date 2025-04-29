@@ -1,0 +1,15 @@
+{
+  "client_id": "f32de515-2761-4c28-8cd8-31637b658375",
+  "authorization_user_agent": "DEFAULT",
+  "redirect_uri": "msauth://com.ericklogistics.pokedexApp/o3E7M7kUGvrbhggRVfKnQbge1PE%3D",
+  "account_mode": "SINGLE",
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount",
+        "tenant_id": "common"
+      }
+    }
+  ]
+}
