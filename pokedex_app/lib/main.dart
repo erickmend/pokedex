@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:pokedex_app/config/routes/go_router.dart';
 import 'package:pokedex_app/presentation/providers/pokemon_providers.dart';
 
 void main() {
@@ -16,11 +17,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Example')),
-        body: MyHomePage(title: 'Pokedex - flutter app')
-      ),
+    return MaterialApp.router(
+
+      routerConfig: appRouter,
     );
   }
 }
